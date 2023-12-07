@@ -1,4 +1,5 @@
 use reqwest;
+use clap::ColorChoice;
 
 #[tokio::main]
 async fn main() -> Result<(), reqwest::Error> {
